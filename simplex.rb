@@ -56,9 +56,11 @@ class Simplex
   def print_solution
     @result = simplex @n_M, @b_M, @c_V, @b_V, true
     puts
-    puts "Rezultat: #{@result[:result]}"
-    puts "Wynik: #{@result[:point].inspect}" if @result[:result] == :ok
-    puts "Wartosc funkcji: #{get_value}"
+    puts "Result: #{@result[:result]}"
+    if @result[:result] == :ok
+      puts "Vector: #{@result[:point].inspect}" if @result[:result] == :ok
+      puts "Function value: #{get_value}"
+    end
     true
   end
 
