@@ -1,1 +1,14 @@
-Ruby implementation of simplex algorithm. There's also some example of usage.
+Ruby implementations of some linear-programming algorithms:
+ 
+-Simplex (http://en.wikipedia.org/wiki/Simplex_algorithm)
+-Gomory's
+
+Algorithms are provided with simple usage examples.
+
+=== Requirements ==
+
+In order to display beautiful tables in Gomory's program you have to install one library from gemcutter. So please type as root:
+
+# gem install gemcutter
+# gem tumble
+# gem install terminal-table
