@@ -170,5 +170,6 @@ class GomoryTable
   end
 end
 
-g = Gomory.new [0, -8, -6], [[-2, -3], [-1, -4], [-3, -1]]
-g.print_solution
+# Usage example:
+# g = Gomory.new [0, 15, -5, 3], [[-1, -2], [2, 4], [-2, -2], [1, -1]]
+# g.print_solution

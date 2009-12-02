@@ -145,10 +145,11 @@ class Simplex
   end
 end
 
-n_M = Matrix[[4, 4], [1, 0], [0, 1]]
-b_M = Matrix.identity(3)
-c_V = Matrix[[-1, -2, 0, 0, 0]].transpose
-b_V = Matrix[[12, 2, 2]].transpose
+# Usage example:
+# n_M = Matrix[[4, 4], [1, 0], [0, 1]]
+# b_M = Matrix.identity(3)
+# c_V = Matrix[[-1, -2, 0, 0, 0]].transpose
+# b_V = Matrix[[12, 2, 2]].transpose
 
-s = Simplex.new n_M, b_M, c_V, b_V
-s.print_solution
+# s = Simplex.new n_M, b_M, c_V, b_V
+# s.print_solution
